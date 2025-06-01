@@ -1,8 +1,9 @@
-import { fetchPosts } from "@/lib/actions/thread.actions";
+// import { fetchPosts } from "@/lib/actions/thread.actions";
 import "../globals.css";
 import { currentUser } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import ThreadCard from "@/components/cards/ThreadCard";
+import { fetchPosts } from "@/lib/actions/thread.actions";
 export default async function Home() {
   const user = await currentUser();
   const result = await fetchPosts(1, 30);
