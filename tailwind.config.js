@@ -173,8 +173,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        "primary-500": "#877EFF",
-        "secondary-500": "#FFB620",
+        "primary-500": "#ff914d",
+        "secondary-500": "#9e7a64",
         blue: "#0095F6",
         "logout-btn": "#FF5A5A",
         "navbar-menu": "rgba(16, 16, 18, 0.6)",
@@ -184,9 +184,9 @@ module.exports = {
         "dark-4": "#1F1F22",
         "light-1": "#FFFFFF",
         "light-2": "#EFEFEF",
-        "light-3": "#7878A3",
-        "light-4": "#5C5C7B",
-        "gray-1": "#697C89",
+        "light-3": "#e9a277",
+        "light-4": "#c59c83",
+        "gray-1": "#9e7a64",
         glassmorphism: "rgba(16, 16, 18, 0.60)",
       },
       boxShadow: {
