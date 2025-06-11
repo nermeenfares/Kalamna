@@ -7,7 +7,9 @@ export default function Topbar() {
     <nav className="topbar">
       <Link href="/" className="flex items-center gap-4">
         <Image alt="logo" src="/assets/logo.svg" width={28} height={28} />
-        <p className="text-heading3-bold text-light-1 max-xs:hidden">Posts</p>
+        <p className="text-heading3-bold text-light-1 max-xs:hidden">
+          Kalamnna
+        </p>
       </Link>
       <div className="flex items-center gap-1">
         <div className="block md:hidden">
