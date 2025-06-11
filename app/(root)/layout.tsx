@@ -7,8 +7,8 @@ import Bottombar from "@/components/shared/Bottombar";
 import Topbar from "@/components/shared/Topbar";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Threads",
-  description: "A Next.js 13 Meta Threads application",
+  title: "Mindspace",
+  description: "A space for your thoughts",
 };
 const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
